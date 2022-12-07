@@ -4,12 +4,12 @@ This app has been built to demonstrate Naurt's capabilities and compare them to 
 and fused. To use the app you'll need an API key. If you don't yet have one, please get in contact with the [sales team](https://www.Naurt.com/#Contact1).
 
 ## Quickstart
-To get the app up and running all you need to do is download the app, ensure your phone is connected to the internet and enter a valid API key. Make sure to give the app the location permissions it needs otherwise it will not function as intended! If outdoor to indoor tracking is required, the best results will be seen when the phone is in hand rather than a pocket or bag.
+To get the app up and running all you need to do is download the app, ensure your phone is connected to the internet and enter a valid API key. Make sure to give the app the location permissions it needs otherwise it will not function as intended! If outdoor to indoor tracking is required, the best results will be seen when the phone is in hand rather than a pocket or bag. In addition to this, ensure both Naurt text labels in the top left are not N/A by having an active internet connection and a phone running Android API 30 or above.
 
 #### Example images
-Login Screen|Main Screen|Information page
-:-------------------------:|:-------------------------:|:-------------------------:
-![Example Screenshot of the app](img/login_screenshot.png)|![Example Screenshot of the app](img/example_screenshot.png)|![Info Screenshot of the app](img/info_screenshot.png)
+Login Screen|Main Screen Layout
+:-------------------------:|:-------------------------:
+![Example Screenshot of the app](img/login_screenshot.png)|![Info Screenshot of the app](img/info_screenshot.png)|
 
 
 ## Features
@@ -31,6 +31,7 @@ We apologise if you find any bugs within the app, this was developed over a shor
 - Crashes on some phones running Android 10 - API 29
 - Sporadic issues with hiding Naurt flags.
 - Data recording cannot be stopped (of saved) on phones which have no documents folder (generally older devices).
+- "Interesting" layout behavior on the information page on some devices.
 
 ### Bug reports
 if you come across any bugs not mentioned above, please make an issue on this repository and describe your problem. 
