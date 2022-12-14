@@ -20,7 +20,9 @@ The app should mainly be used as a tool for visual inspection. Traces are drawn 
 The demo app places "flags" on the map when a Naurt event happens. Currently, this just occurs when the Naurt flags the environment has changed, i.e, you go from outdoors to indoors or indoors to outdoors. You'll see this represented on the map by a door icon which can be hidden. This information is also displayed as text in the top left corner of the application.
 
 ### Data recording
-If you wish to perform some custom analysis on Naurt, the app also provides data collection to a CSV file. Currently, the timestamp, Naurt latitude, Naurt longitude, Naurt speed, Naurt motion flag, Naurt environment flag, GNSS latitude, GNSS longitude, fused latitude, and fused longitude are recorded. The app also functions in the background so data will still be collected when the screen is off. For long collections, this is not 100% reliable as the Mapbox integrations and internet requirements that come with such integrations can cause crashes. Stability will be improved over time. It is also with noting that data will not be collected if there is no documents folder present on the phone.
+If you wish to perform some custom analysis on Naurt, the app also provides data collection to a CSV file. Currently, the timestamp, Naurt latitude, Naurt longitude, Naurt speed, Naurt motion flag, Naurt environment flag, GNSS latitude, GNSS longitude, fused latitude, and fused longitude are recorded. The app also functions in the background so data will still be collected when the screen is off. For long collections, this is not 100% reliable as the Mapbox integrations and internet requirements that come with such integrations can cause crashes. Stability will be improved over time.  **All csv output data will be saved to documents/naurt. When finding this folder, it may be necessary to navigate to "internal storage" first.**
+
+
 
 ## Feature Requests
 If there are any additional features you require, please create an issue on this repository and we will try our best to accommodate it.
@@ -30,7 +32,6 @@ We apologise if you find any bugs within the app, this was developed over a shor
 
 - Crashes on some phones running Android 10 - API 29
 - Sporadic issues with hiding Naurt flags.
-- Data recording cannot be stopped (of saved) on phones which have no documents folder (generally older devices).
 - "Interesting" layout behavior on the information page on some devices.
 
 ### Bug reports
